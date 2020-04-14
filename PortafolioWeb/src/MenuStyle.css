@@ -1,0 +1,65 @@
+body{
+    background-image: url(../Assets/menu.png);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.Title{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 25px;
+    text-align: center;
+    color: #273b66;
+}
+
+.op{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 25px;
+    text-align: center;
+    color: #273b66;
+}
+
+@keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+
+.UpArrow{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: rotate(90deg);
+    -webkit-animation: flickerAnimation .18s infinite;
+    -moz-animation: flickerAnimation .18s infinite;
+    -o-animation: flickerAnimation .8s infinite;
+    animation: flickerAnimation .8s infinite;
+}
+
+.DownArrow{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    transform: rotate(-90deg);
+    -webkit-animation: flickerAnimation .18s infinite;
+    -moz-animation: flickerAnimation .18s infinite;
+    -o-animation: flickerAnimation .8s infinite;
+    animation: flickerAnimation .8s infinite;
+}

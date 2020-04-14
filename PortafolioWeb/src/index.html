@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <script  type="text/javascript" src="GameFuntion.js"></script>
+    <!--Todo el frontend del portafolio, incluyendo efecto de luz en el boton de power-->
+    <input type="image" onclick="UpButton()" src="../Assets/up.png" id="UpButton" class="UpButton">
+    <input type="image"  src="../Assets/left.png" id="LeftButton" class="LeftButton">
+    <input type="image" onclick="DownButton()" src="../Assets/down.png" id="DownButton" class="DownButton" /> 
+    <input type="image"  src="../Assets/right.png" id="RightButton" class="RightButton">
+    <img src="../Assets/center.png" alt="CenterButton" class="CenterButton">
+    <img src="../Assets/pantalla.png" alt="Pantalla" class="Pantalla">
+    <input type="image" src="../Assets/start.png" alt="StartButton" class="StartButton">
+    <button onclick="StartButton()" class="StartB"></button>
+    <button onclick="SelectButton()" class="SelectB"></button>
+    <button onclick="AButton()" class="AButton">A</button>
+    <button class="BButton">B</button>
+    <img src="../Assets/power.png" alt="Power" class="Power">
+    <h1 class="neon" data-text=".">.</h1>
+    <img src="../Assets/bocins.png" alt="Bocina" class="Bocina" />
+    <!--Pantalla de la gameboy que me sirve para ver el resto de portafolio-->
+    <iframe id="PantallaNew" scrolling="auto" class="PantallaReal" src="warning.html"></iframe>
+    
+</body>
+</html>

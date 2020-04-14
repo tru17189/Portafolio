@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Juego de memoria</title>
+      <link rel="stylesheet" href="styles.css">
+      <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+      <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+      <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  </head>  
+  <body>
+      <section class="memory-game">
+
+          <div class="memory-card" data-framework="itchy">
+              <img class="front-face" src="assets/1.png" alt="Itchy" />
+              <img class="back-face" src="assets/krusty.png" alt="JS Badge" />
+          </div>
+          <div class="memory-card" data-framework="itchy">
+              <img class="front-face" src="assets/1.png" alt="Itchy" />
+              <img class="back-face" src="assets/krusty.png" alt="JS Badge" />
+          </div>
+
+          <div class="memory-card" data-framework="clown">
+              <img class="front-face" src="assets/2.png" alt="Clown" />
+              <img class="back-face" src="assets/krusty.png" alt="JS Badge" />
+          </div>
+          <div class="memory-card" data-framework="clown">
+              <img class="front-face" src="assets/2.png" alt="Clown" />
+              <img class="back-face" src="assets/krusty.png" alt="JS Badge" />
+          </div>
+
+          <div class="memory-card" data-framework="sideshow">
+              <img class="front-face" src="assets/3.png" alt="Sideshow" />
+              <img class="back-face" src="assets/krusty.png" alt="JS Badge" />
+          </div>
+          <div class="memory-card" data-framework="sideshow">
+              <img class="front-face" src="assets/3.png" alt="Sideshow" />
+              <img class="back-face" src="assets/krusty.png" alt="JS Badge" />
+          </div>
+
+          <div class="memory-card" data-framework="apu">
+                <img class="front-face" src="assets/4.png" alt="Apu" />
+                <img class="back-face" src="assets/krusty.png" alt="JS Badge" />
+          </div>
+          <div class="memory-card" data-framework="apu">
+                <img class="front-face" src="assets/4.png" alt="Apu" />
+                <img class="back-face" src="assets/krusty.png" alt="JS Badge" />
+          </div>
+
+          <div class="memory-card" data-framework="kang">
+                <img class="front-face" src="assets/5.png" alt="Kang" />
+                <img class="back-face" src="assets/krusty.png" alt="JS Badge" />
+          </div>
+          <div class="memory-card" data-framework="kang">
+                <img class="front-face" src="assets/5.png" alt="Kang" />
+                <img class="back-face" src="assets/krusty.png" alt="JS Badge" />
+          </div>
+
+          <div class="memory-card" data-framework="moe">
+                <img class="front-face" src="assets/6.png" alt="Moe" />
+                <img class="back-face" src="assets/krusty.png" alt="JS Badge" />
+          </div>
+          <div class="memory-card" data-framework="moe">
+                <img class="front-face" src="assets/6.png" alt="Moe" />
+                <img class="back-face" src="assets/krusty.png" alt="JS Badge" />
+          </div>
+
+          <div class="memory-card" data-framework="nelson"> 
+                <img class="front-face" src="assets/7.png" alt="Nelson" />
+                <img class="back-face" src="assets/krusty.png" alt="JS Badge" />
+          </div>
+          <div class="memory-card" data-framework="nelson">
+                <img class="front-face" src="assets/7.png" alt="Nelson" />
+                <img class="back-face" src="assets/krusty.png" alt="JS Badge" />
+          </div>
+
+          <div class="memory-card" data-framework="burns">
+                <img class="front-face" src="assets/8.png" alt="Burns" />
+                <img class="back-face" src="assets/krusty.png" alt="JS Badge" />
+          </div>
+          <div class="memory-card" data-framework="burns">
+                <img class="front-face" src="assets/8.png" alt="Burns" />
+                <img class="back-face" src="assets/krusty.png" alt="JS Badge" />
+          </div>
+          <script src="scripts.js"></script>
+      </section>
+      <div class="contador">
+            <font color="white" size="6"><p><b>Numero de movimientos: </b></p></font>
+            <font color="white" size="6"><b><p id="demo"></p></b></font>
+      </div>
+
+  </body>
+</html>

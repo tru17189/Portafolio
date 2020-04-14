@@ -1,0 +1,99 @@
+body{
+    background-color: #fff;
+}
+
+.WarningSymbol{
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    height: 12%;
+    width: 7%;
+}
+
+.title{
+    position: absolute;
+    top: 3%;
+    left: 15%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.FirstIns{
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    text-align: center;
+}
+
+.SecondIns{
+    position: absolute;
+    top: 35%;
+    left: 3%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    text-align: center;
+}
+
+.ThirdIns{
+  position: absolute;
+  top: 45%;
+  left: 3%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  text-align: center;
+}
+
+.FourIns{
+  position: absolute;
+  top: 55%;
+  left: 3%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  text-align: center;
+}
+
+.cv{
+  position: absolute;
+  top: 1%;
+  left: 20%;
+  align-content: center;
+  height: auto;
+  width: auto;
+}
+
+@keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+.flickerText{
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    text-align: center;
+    -webkit-animation: flickerAnimation .18s infinite;
+    -moz-animation: flickerAnimation .18s infinite;
+    -o-animation: flickerAnimation .8s infinite;
+    animation: flickerAnimation .8s infinite;
+}
+
